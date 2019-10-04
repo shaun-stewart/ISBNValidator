@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7346c2e-eddd-494d-b39d-b2ce2a4b6c6c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1RK7BWkCJiUtRLvlt6OzQ7jeWaB" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.shauns.isbntools" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ExampleTests">
+    <configuration name="ExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.ISBNNumbersEndingInAnXAreValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
+      <option name="METHOD_NAME" value="ISBNNumbersEndingInAnXAreValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.checkAValidISBN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
+      <option name="METHOD_NAME" value="checkAValidISBN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.exampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
+      <option name="METHOD_NAME" value="exampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExampleTests.nineDigitISBNsNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
+      <option name="METHOD_NAME" value="nineDigitISBNsNotAllowed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ExampleTests" />
+        <item itemvalue="JUnit.ExampleTests.ISBNNumbersEndingInAnXAreValid" />
+        <item itemvalue="JUnit.ExampleTests.nineDigitISBNsNotAllowed" />
+        <item itemvalue="JUnit.ExampleTests.checkAValidISBN" />
+        <item itemvalue="JUnit.ExampleTests.exampleTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7346c2e-eddd-494d-b39d-b2ce2a4b6c6c" name="Default Changelist" comment="" />
+      <created>1569403798540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569403798540</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/com/shauns/isbntools/ExampleTests.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
