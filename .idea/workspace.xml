@@ -2,14 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7346c2e-eddd-494d-b39d-b2ce2a4b6c6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shauns/isbntools/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shauns/isbntools/ExternalISBNDataService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shauns/isbntools/StockManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/shauns/isbntools/StockManagementTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shauns/isbntools/ValidateISBN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shauns/isbntools/ValidateISBN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ISBNValidator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ISBNValidator.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -30,13 +47,19 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/com/shauns/isbntools" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.shauns.isbntools" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/test/com/shauns/isbntools" />
+      <recent name="$PROJECT_DIR$/src/com/shauns/isbntools" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -51,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ExampleTests">
+  <component name="RunManager" selected="JUnit.StockManagementTests">
     <configuration name="ExampleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISBNValidator" />
       <extension name="coverage">
@@ -99,22 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExampleTests.exampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ISBNValidator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shauns.isbntools.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
-      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.ExampleTests" />
-      <option name="METHOD_NAME" value="exampleTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ExampleTests.nineDigitISBNsNotAllowed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISBNValidator" />
       <extension name="coverage">
@@ -131,13 +138,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockManagementTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISBNValidator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shauns.isbntools.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.shauns.isbntools" />
+      <option name="MAIN_CLASS_NAME" value="com.shauns.isbntools.StockManagementTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StockManagementTests" />
         <item itemvalue="JUnit.ExampleTests" />
         <item itemvalue="JUnit.ExampleTests.ISBNNumbersEndingInAnXAreValid" />
         <item itemvalue="JUnit.ExampleTests.nineDigitISBNsNotAllowed" />
         <item itemvalue="JUnit.ExampleTests.checkAValidISBN" />
-        <item itemvalue="JUnit.ExampleTests.exampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +181,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
